@@ -26,3 +26,7 @@ Route::get('/bb/b1',function() {
 Route::get('/bb/b2',function() {
     return view('bb.b2');
 });
+
+Route::get('/aa/a1',function() {
+    return view('aa.a1');
+});
